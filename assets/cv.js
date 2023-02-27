@@ -20,4 +20,14 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
-/** Cierra Go top button */
+
+/** Tooltip */
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+/** Noticias con Collapse */
+document.getElementById("btn3").onclick = function () {
+    alert("¡Gracias! ¡Hemos registrado sus datos exitosamente!");
+}
+
+
