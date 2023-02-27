@@ -13,11 +13,6 @@ body {
     padding: .1%;
 }
 
-#logo {
-    width: 4rem;
-    height: 3.5rem;
-}
-
 #btn2 {
     border-color: white;
     background-color: #aac2d4;
@@ -43,7 +38,6 @@ body {
 
 .col-4 {
     text-align: right;
-    justify-items: right;
 }
 
 section img {
@@ -108,7 +102,7 @@ section img {
 
 .col-8 {
     border-right: 2px solid black;
-    justify-items: left;
+    
 }
 
 h3 {
